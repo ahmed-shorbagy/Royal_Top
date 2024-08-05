@@ -5,10 +5,10 @@ class AppThemes {
   static final lightTheme = ThemeData(
     fontFamily: 'Poppins',
     brightness: Brightness.light,
-    primaryColor: Colors.blue,
+    primaryColor: const Color(0xff31A062),
     scaffoldBackgroundColor: Colors.blue,
     appBarTheme: AppBarTheme(
-      color: Colors.blue,
+      color: const Color(0xff31A062),
       iconTheme: const IconThemeData(color: Colors.white),
       toolbarTextStyle: const TextTheme(
         titleLarge: TextStyle(
@@ -19,21 +19,21 @@ class AppThemes {
       ).bodyMedium,
       titleTextStyle: const TextTheme(
         titleLarge: TextStyle(
-          color: Colors.white,
+          color: Colors.black,
           fontSize: 24.0,
           fontWeight: FontWeight.bold,
         ),
       ).titleLarge,
     ),
     textTheme: const TextTheme(
-      headlineLarge: TextStyle(color: Colors.white),
-      headlineMedium: TextStyle(color: Colors.white),
-      headlineSmall: TextStyle(color: Colors.white),
+      headlineLarge: TextStyle(color: Colors.black),
+      headlineMedium: TextStyle(color: Colors.black),
+      headlineSmall: TextStyle(color: Colors.black),
       bodyLarge: TextStyle(
-        color: Colors.white,
+        color: Colors.black,
       ),
-      bodyMedium: TextStyle(color: Colors.white),
-      titleLarge: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+      bodyMedium: TextStyle(color: Colors.black, fontSize: 16),
+      titleLarge: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
@@ -51,7 +51,7 @@ class AppThemes {
 
   static final darkTheme = ThemeData(
     fontFamily: 'Poppins',
-    primaryColor: Colors.blue,
+    primaryColor: const Color(0xff31A062),
     scaffoldBackgroundColor: Colors.black,
     appBarTheme: AppBarTheme(
       color: Colors.black,
